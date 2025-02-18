@@ -57,13 +57,11 @@
     margin: 50px 0;
     width: 800px;
 }
-/* .ex-10-icon {
-    transition: 1s ease-in;
- }    */
-.ex-10-icon{
-    animation: move1 1s infinite linear
-}
 
+.ex-10-icon {
+    animation: move1 1s infinite linear
+    
+}
 
 /* @keyframes duration | easing-function | delay |
 iteration-count | direction | fill-mode | play-state | name */
@@ -73,28 +71,12 @@ iteration-count | direction | fill-mode | play-state | name */
     to { transform: rotate(360deg); }  
 }
 
-
-
-
-
-
-
-
-
-
-
-/* 0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    } */
+.ex-11-icon:hover {
+    animation: move2 1s linear 2 alternate
+}
+@keyframes move2 {
+    0% { transform: rotate(0deg); }
+    33% { transform: rotate(90deg); }
+    66% { transform: rotate(180deg); }
+    100% { transform: rotate(270deg); }
+}
