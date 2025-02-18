@@ -43,6 +43,20 @@ iteration-count | direction | fill-mode | play-state | name */
 }
 
 .ex-7-img:hover {
-    transition: 4s ease-in-out;
+    transition: 2s ease-in-out;
     filter:contrast(3) sepia(1);
+}
+
+.ex-8-img:hover {
+    transition: 2s ease-in-out;
+    filter:opacity(3) invert(1);
+    border-radius: 5%;
+}
+
+.ex-9-img:hover {
+    transition: 4s ease-in-out;
+    filter:sepia(1) blur(5px);
+    border-radius: 5%;
+    margin: 50px 0;
+    width: 800px;
 }
