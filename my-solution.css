@@ -38,6 +38,11 @@ iteration-count | direction | fill-mode | play-state | name */
 }
 
 .ex-6-img:hover {
-    transition: 2s ease-out;
+    transition;
     filter:grayscale(1) ;
+}
+
+.ex-7-img:hover {
+    transition: 4s ease-in-out;
+    filter:contrast(3) sepia(1);
 }
