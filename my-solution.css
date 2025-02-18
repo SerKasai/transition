@@ -14,12 +14,25 @@ iteration-count | direction | fill-mode | play-state | name */
 }
 
 .ex-3-square:hover {
-    transition: border-radius 3s;
+    transition: border-radius 2s;
     border-radius: 50%;
 }
 
 .well:hover .ex-4-square {
-    transition: 3s ease-out;
+    transition: 2s ease-out;
     width: 0;
     height: 0;
+}
+
+.ex-5-square {
+    transition: 2s ease-out;
+
+}
+.ex-5-square:hover {
+    width: 100px;
+    height: 100px;
+}
+.ex-5-square:active {
+    width: 25px;
+    height: 25px;
 }
