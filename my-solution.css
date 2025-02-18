@@ -2,3 +2,13 @@
     transition: background-color 5s;
     background-color: red;
 }
+
+/* @keyframes duration | easing-function | delay |
+iteration-count | direction | fill-mode | play-state | name */
+
+.ex-2-square {
+    transition: 2s ease-out;
+}
+.ex-2-square:active {
+    width: 100%;
+}
