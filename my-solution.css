@@ -12,3 +12,8 @@ iteration-count | direction | fill-mode | play-state | name */
 .ex-2-square:active {
     width: 100%;
 }
+
+.ex-3-square:hover {
+    transition: border-radius 3s;
+    border-radius: 50%;
+}
