@@ -36,3 +36,8 @@ iteration-count | direction | fill-mode | play-state | name */
     width: 25px;
     height: 25px;
 }
+
+.ex-6-img:hover {
+    transition: 2s ease-out;
+    filter:grayscale(1) ;
+}
