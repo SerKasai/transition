@@ -17,3 +17,9 @@ iteration-count | direction | fill-mode | play-state | name */
     transition: border-radius 3s;
     border-radius: 50%;
 }
+
+.well:hover .ex-4-square {
+    transition: 3s ease-out;
+    width: 0;
+    height: 0;
+}
