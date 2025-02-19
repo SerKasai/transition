@@ -81,17 +81,36 @@ iteration-count | direction | fill-mode | play-state | name */
     100% { transform: rotate(0deg); }
 }
 
-.ex-12-top-white {
-    animation: move3 0.5s infinite alternate
+.ex-12-button:hover .ex-12-top-white {
+    animation: move3 2s infinite alternate
 }
 @keyframes move3 {
     from { left: 10%;}
     to { left: 60%; }
 }
-.ex-12-bottom-white {
-    animation: move4 0.5s infinite alternate
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move4 2s infinite alternate
 }
 @keyframes move4 {
     from { right: 10%;}
     to { right: 60%; }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: move5 2s infinite
+}
+@keyframes move5 {
+    25% { top: -10px; left: 80%; }
+    50% { top: 50px; left: 80%; }
+    75% { top: 50px; left: -10%; }
+    100% { top: -10px; left: -10%;}
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: move6 2s infinite
+}
+@keyframes move6 {
+    25% { bottom: -10px; right: 80%; }
+    50% { bottom: 50px; right: 80%; }
+    75% { bottom: 50px; right: -10%; }
+    100% { bottom: -10px; right: -10%;}
 }
